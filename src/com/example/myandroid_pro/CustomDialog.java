@@ -205,7 +205,7 @@ public class CustomDialog extends Dialog {
 					((Button) layout.findViewById(R.id.negativeButton))
 							.setOnClickListener(new View.OnClickListener() {
 								public void onClick(View v) {
-									positiveButtonClickListener.onClick(dialog,
+									negativeButtonClickListener.onClick(dialog,
 											DialogInterface.BUTTON_NEGATIVE);
 								}
 							});
